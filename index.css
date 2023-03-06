@@ -6,7 +6,7 @@ html{
 .subTitle{
     margin:60px 0;
     text-transform: capitalize;
-    font-size: 32px;
+    font-size: 35px;
     font-weight: 700;
 }
 h1,h2,h3,p{
@@ -117,6 +117,9 @@ header nav ul button{
     font-size: 16px;
     width: 100%;
 }
+.choosebambo .reason p{
+    font-weight: 600;
+}
 #tech{
     width:145px;
 }
@@ -223,6 +226,13 @@ header nav ul button{
 /*footer*/
 footer{
    display: absolute;
+   margin-top: 40px;
+}
+.footer1{
+   background: #172029;
+}
+footer p{
+   color: white;
 }
 footer img{
     display: inline-block;
@@ -230,15 +240,19 @@ footer img{
 footer div{
     padding: 2%;
     display: grid;
-    grid-template-columns: 20% 50% 20%;
+    grid-template-columns: 25% 45% 20%;
     column-gap: 5%;
-
+}
+#flogo{
+    width:70%;
+    padding: 0;
+    margin: 0;
 }
 .fbamboo{
     display: inline-block;
 }
 .fstores{
-    display: inline-block;
+    display:inline-block;
     text-align: center;
     color: white;
 }
@@ -246,13 +260,22 @@ footer div{
     display: block;
     font-weight: 600;
     font-size: 18px;
+    margin: 0;
+}
+.fstoresimgpack{
+    display:flex;
+    width: 80%;
+    margin: 0 80px;
+    margin-bottom: 18px;
 }
 .fstores .fstoresimg{
-    margin:0 10px ;
+    margin: 0;
+    width: 42%;
 }
 .fstores .needHelp{
     font-size: 20px;
     font-weight: 600;
+    margin-top: 10px;
 }
 #green{
     color: #68b513;
@@ -274,7 +297,7 @@ footer div{
 .icons #i3{
     width:2%;
     position: relative;
-    bottom: 50px;
+    bottom: 70px;
     left:-50px;
 }
 .icons #i4{
@@ -284,4 +307,17 @@ footer div{
 .iconsRight{
     position: absolute;
     right:85px;
+}
+.footer2{
+    padding: 14px 40px;
+    background: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer2 p{
+    color: white;
+    font-size: 17px;
+}
+#fp2{
+    text-align: center;
 }

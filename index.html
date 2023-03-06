@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bamboo APp</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="slider.css">
 </head>
 <body>
     <header>
@@ -55,6 +56,39 @@
                     <p>We have a 'pay as you go' structure, with no fixed price change fees. We only bill hourly for the work done, up to the agreed cap for the project.</p>
                 </div>
             </div>
+        </section>
+        <section class="gallery container">
+            <h2 class="subTitle">portfolio Gallery</h2>
+<!-- Slideshow container -->
+            <div class="slideshow-container">
+               
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="galleryPack">
+                        <img src="img/gal1.jpeg" alt="" class="galImg">
+                        <img src="img/gal2.jpeg" alt="" class="galImg">
+                        <img src="img/gal3.jpeg" alt="" class="galImg">
+                        <img src="img/gal4.jpeg" alt="" class="galImg">
+                        <img src="img/gal5.jpeg" alt="" class="galImg">
+                        <img src="img/gal7.jpeg" alt="" class="galImg">
+                    </div>
+                </div>
+            
+                <div class="mySlides fade">
+                    <div class="galleryPack">
+                        <img src="img/gal6.jpeg" alt="" class="galImg">
+                        <img src="img/gal8.jpeg" alt="" class="galImg">
+                        <img src="img/gal2.jpeg" alt="" class="galImg">
+                        <img src="img/gal4.jpeg" alt="" class="galImg">
+                        <img src="img/gal1.jpeg" alt="" class="galImg">
+                        <img src="img/gal5.jpeg" alt="" class="galImg">
+                    </div>
+                </div>
+                <!-- Next and previous buttons -->
+               
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </section>
         <section class="award container">
             <h2 class="subTitle">We’re Proven and Awarded</h2>
@@ -107,22 +141,30 @@
         <spa class="iconsRight">
             <img src="img/icn_footer.svg" id="1" alt="" class="footIcons">
         </spa>
-        <div class="">
+        <div class="footer1">
             <div class="fbamboo">
-                <img src="img//BambooAppLogo.svg" alt="" id="flogo">
+                <img src="img/logoWhite.png" alt="" id="flogo">
                 <p>We are a general contractor using technology and global teams to help visualize 
                     and remodel your space at a lower cost.</p>
             </div>
             <div class="fstores">
                 <p id="downloadApp">Download our mobile app</p>
-                <img src="img/latest_tech.svg" alt="" class="fstoresimg">
-                <img src="img/latest_tech.svg" alt="" class="fstoresimg">
+                <div class="fstoresimgpack">
+                    <img src="img/apple.svg" alt="" class="fstoresimg">
+                    <img src="img/google_play.svg" alt="" class="fstoresimg">
+                </div>
+                
                 <p class="needHelp">Need help or have a question, call us at <span id="green">(512) 542-9790</span></p>
             </div>
             <div class="fsocials">
                 <p>Follow Us</p>
             </div>
         </div>
+        <div class="footer2">
+            <p>© 2022 <span id="green">Bamboo Contracting Inc.</span> </p>
+            <p id="fp2">Privacy Policy  |  Terms & Conditions</p>
+        </div>
     </footer>
+    <script src="slider.js"></script>
 </body>
 </html>
