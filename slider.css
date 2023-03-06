@@ -26,7 +26,7 @@
 .prev, .next {
   cursor: pointer;
   position:absolute;
-  top:249%;
+  top:255%;
   width: auto;
   padding: 25px;
   color: #717171;
